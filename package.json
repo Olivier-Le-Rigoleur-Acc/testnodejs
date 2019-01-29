@@ -1,0 +1,22 @@
+{
+  "name": "testnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olivier-Le-Rigoleur-Acc/testnodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olivier-Le-Rigoleur-Acc/testnodejs/issues"
+  },
+  "homepage": "https://github.com/Olivier-Le-Rigoleur-Acc/testnodejs#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
