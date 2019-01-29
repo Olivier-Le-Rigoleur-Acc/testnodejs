@@ -4,7 +4,8 @@ const port = 3000
 
 const requestHandler = (request, response) => {
   console.log(request.url)
-  response.end('Hello Node.js Server!')
+  var id = req.query.id;
+  response.end('Hello $id from Dublin!')
 }
 
 const server = http.createServer(requestHandler)
