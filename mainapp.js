@@ -4,8 +4,11 @@ const port = 3000
 
 const requestHandler = (request, response) => {
   console.log(request.url)
-  var id = req.query.id;
-  response.end('Hello $id from Dublin!')
+  var url = require('url');
+  var url_parts = url.parse(request.url, true);
+  var query = url_parts.query;
+  var id = query.id;
+  response.end('Hello $(id) from Dublin!')
 // comment for futur devs
 }
 
