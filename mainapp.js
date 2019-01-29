@@ -6,6 +6,7 @@ const requestHandler = (request, response) => {
   console.log(request.url)
   var id = req.query.id;
   response.end('Hello $id from Dublin!')
+// comment for futur devs
 }
 
 const server = http.createServer(requestHandler)
